@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basketball-Scoreboard</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h3>HOME</h3>
+        <div id="owner">0</div>
+        <button onclick="plus1()" id="plusOne">+1</button>
+        <button onclick="plus2()" id="plusTwo">+2</button>
+        <button onclick="plus3()" id="plusThree">+3</button>
+      </div>
+      <div>
+        <h3>GUEST</h3>
+        <div id="visitor">0</div>
+        <button onclick="minus1()">+1</button>
+        <button onclick="minus2()">+2</button>
+        <button onclick="minus3()">+3</button>
+      </div>
+    </div>
+    <div id="newG">
+      <h3>Reset Game</h3>
+      <button onclick="reset()" id="rst">New Game</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
